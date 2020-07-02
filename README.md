@@ -22,7 +22,7 @@ $trackeditems - Returns a txt file containing all items with data registered fro
 $enchbook "<enchantment> <level> etc." - You can repeat enchantment/level as much as you want for as many enchantments with levels. Returns the data for all enchanted books with the enchantments and levels you provided.
 $ah_post_here - StonkBot will start to output underpriced AH auctions to the channel in which the command was sent. Must have role STONK MASTER.
 
-======================================================================
+
     
 Available keys for sendgraph and potentially other future commands:
 BLAZE_ROD
@@ -232,4 +232,3 @@ WHITE_GIFT
 WISE_FRAGMENT
 WOLF_TOOTH
 YOUNG_FRAGMENT
-======================================================================
