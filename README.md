@@ -10,16 +10,27 @@ You must have the role STONK TRADER to run these commands unless otherwise noted
 
 Bazaar:
 $sendgraph <key> [OPTIONAL Past Time: any integer, default = 3600] [OPTIONAL filter: -b] - Returns a graph with the price overtime for an item
-     E.g. $sendgraph diamond - Returns a graph showing bazaar pricing for diamonds for the past hour.
+ 
+ 
+ E.g. $sendgraph diamond - Returns a graph showing bazaar pricing for diamonds for the past hour.
+
 $upcrafts [OPTIONAL: mode (%,upvalue,ppi)] - Returns all profitable upcrafts (Bazaar moves super fast so be sure to check right before you buy!!!)
+
 $disparity - Returns the difference between the sell instantly price and the buy instantly price for each sitem (as text file)
+
 $post_here - StonkBot will start to output bazaar changes to the channel in which the command was sent. Must have role STONK MASTER
 
+
 Auction House
+
 $value [OPTIONAL filter: -v (verbose), -a (list all), -h <enchantment> (has enchantment)] <item name> - Returns average selling value of item from the AH. Taken from auctions in the last 10 seconds before they finished.
-     E.g. $value aspect of the dragons - returns the average selling value of an aspect of the dragons
+
+E.g. $value aspect of the dragons - returns the average selling value of an aspect of the dragons
+
 $trackeditems - Returns a txt file containing all items with data registered from the AH.
+
 $enchbook "<enchantment> <level> etc." - You can repeat enchantment/level as much as you want for as many enchantments with levels. Returns the data for all enchanted books with the enchantments and levels you provided.
+
 $ah_post_here - StonkBot will start to output underpriced AH auctions to the channel in which the command was sent. Must have role STONK MASTER.
 
 
